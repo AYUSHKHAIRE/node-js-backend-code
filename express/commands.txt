@@ -1,0 +1,55 @@
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT> cd ./backend
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend> cd ./ express
+Set-Location : A positional parameter cannot be found that accepts argument 'express'.
+At line:1 char:1
++ cd ./ express
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend> cd express
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\express> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (express) ayushexpressexplore
+version: (1.0.0)                                                                                                                             
+description: this is a folder made by me while exploring node express                                                                        
+entry point: (index.js) app.js                                                                                                               
+test command:                                                                                                                                
+git repository:
+keywords:                                                                                                                                    
+author: ayush                                                                                                                                
+license: (ISC)                                                                                                                               
+About to write to C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\express\package.json:
+
+{
+  "name": "ayushexpressexplore",
+  "version": "1.0.0",
+  "description": "this is a folder made by me while exploring node express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ayush",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\express> npm i express
+
+added 58 packages, and audited 59 packages in 10s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\express> 

@@ -1,0 +1,249 @@
+npm tut
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT> npm
+Usage:
+npm install        install all the dependencies in your project
+npm install <foo>  add the <foo> dependency to your project
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term> (in a browser)
+npm help npm       more involved overview (in a browser)
+
+All commands:
+
+    access, adduser, audit, bugs, cache, ci, completion,
+    config, dedupe, deprecate, diff, dist-tag, docs, doctor,
+    edit, exec, explain, explore, find-dupes, fund, get, help,
+    hook, init, install, install-ci-test, install-test, link,
+    ll, login, logout, ls, org, outdated, owner, pack, ping,
+    pkg, prefix, profile, prune, publish, query, rebuild, repo,
+    restart, root, run-script, search, set, shrinkwrap, star,
+    stars, start, stop, team, test, token, uninstall, unpublish,
+    unstar, update, version, view, whoami
+
+Specify configs in the ini-formatted file:
+    C:\Users\DELL\.npmrc
+or on the command line via: npm <command> --key=value
+
+More configuration info: npm help config
+Configuration fields: npm help 7 config
+
+npm@9.5.1 C:\Program Files\nodejs\node_modules\npm
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT> npm --version
+9.5.1
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT> node --version
+v18.16.0
+ C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT> cd backend
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend> cd  cd NPM node_package_manager
+S C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend> cd npmt
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> ls
+
+
+    Directory: C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        14-05-2023     05:08             23 npm1.js
+
+
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm init
+VELOPMENT\backend\npmt> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (npmt) npmtut
+version: (1.0.0)
+description: this is the first package                     
+entry point: (npm1.js)                                     
+test command:                                              
+git repository:                                            
+keywords: ausome                                           
+author: ayush                                              
+license: (ISC)
+About to write to C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt\package.json:        
+
+{
+  "name": "npmtut",
+  "version": "1.0.0",
+  "description": "this is the first package",
+  "main": "npm1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  ],
+  "author": "ayush",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm install express
+
+added 57 packages, and audited 58 packages in 10s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt>npm uninstall express
+
+removed 57 packages, and audited 1 package in 538ms
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm install slugify @ 6.7.8
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm install nodemon --save-dev
+
+added 32 packages, and audited 33 packages in 5s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> 
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT> cd backend
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend> cd npmt
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> ls
+
+
+    Directory: C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        14-05-2023     05:36                node_modules
+-a----        14-05-2023     05:39           4439 commands.txt
+-a----        14-05-2023     05:08             23 npm1.js
+-a----        14-05-2023     05:36          13190 package-lock.json
+-a----        14-05-2023     05:36            318 package.json
+
+
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm install nodemon --global
+
+changed 32 packages in 6s
+
+3 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> nodemon npm1.js
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node npm1.js`
+npm tut
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node npm1.js`
+[nodemon] restarting due to changes...
+this is npm tutorial
+[nodemon] starting `node npm1.js`
+this is npm tutorial
+[nodemon] clean exit - waiting for changes before restart
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT> cd backend
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend> cd npmt
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm i  browerify
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/browerify - Not found
+npm ERR! 404 
+npm ERR! 404  'browerify@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\DELL\AppData\Local\npm-cache\_logs\2023-05-14T07_09_27_388Z-debug-0.log
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm i browserify
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+
+added 153 packages, and audited 186 packages in 22s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> 
+"dependencies": {
+        "browserify": "~17.0.0"
+        this means " ~______________" if i install another then it will accept the package
+      },
+      "devDependencies": {
+        "nodemon": "^2.0.22" 
+        this means " ^______________" it will use that specific version
+      }
+      "devDependencies": {
+        "nodemon": "^2.0.22" 
+        this means " >______________" it will use that specific version
+      }
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT> cd backend
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend> cd npmt
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm i  browerify
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/browerify - Not found
+npm ERR! 404 
+npm ERR! 404  'browerify@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\DELL\AppData\Local\npm-cache\_logs\2023-05-14T07_09_27_388Z-debug-0.log
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm i browserify
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+
+added 153 packages, and audited 186 packages in 22s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm i
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+
+added 185 packages, and audited 186 packages in 31s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm i slugify 
+
+added 1 package, and audited 187 packages in 1s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm i
+
+up to date, audited 187 packages in 925ms
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm view slugify version
+1.6.6
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm view browserify version
+17.0.0
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm i 
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+
+added 186 packages, and audited 187 packages in 13s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> npm view nodemon version
+2.0.22
+PS C:\Users\DELL\Desktop\folderking\THE  PROGRAMING\WEB  DEVELOPMENT\backend\npmt> 

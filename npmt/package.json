@@ -1,0 +1,21 @@
+{
+  "name": "npmtut",
+  "version": "1.0.0",
+  "description": "this is the first package",
+  "main": "npm1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ausome"
+  ],
+  "author": "ayush",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "slugify": "^1.6.6"
+  }
+}
